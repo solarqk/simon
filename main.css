@@ -2,8 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 375px;
+    margin: 0;
   }
-  
+
   header {
     flex: 0 80px;
   }
@@ -52,13 +53,13 @@ body {
   }
   
   .player-name {
-    color: rgb(118, 190, 210);
+    color: rgb(201, 175, 243);
   }
   
   .game {
     background: rgb(0, 0, 0);
     border-radius: 50%;
-    box-shadow: 0 0 20px 5px rgb(69, 69, 69);
+    box-shadow: 0 0 20px 5px rgb(96, 82, 97);
     width: 80vw;
     height: 80vw;
     position: absolute;
